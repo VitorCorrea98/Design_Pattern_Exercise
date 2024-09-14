@@ -1,0 +1,16 @@
+{
+  "name": "design_pattern_exercise",
+  "version": "1.0.0",
+  "description": "Este repositório é um espaço dedicado à exploração e prática de diversos padrões de projeto (Design Patterns). Aqui, você encontrará diferentes projetos que demonstram a aplicação de cada padrão em cenários reais.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "sucrase": "^3.35.0",
+    "typescript": "^5.6.2"
+  }
+}
