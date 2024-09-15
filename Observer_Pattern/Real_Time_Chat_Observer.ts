@@ -15,7 +15,7 @@ class GroupChat implements Subject {
   }
 
   removeObserver(o: Observer): void {
-    this.observers.filter((observer) => observer !== o)
+    this.observers = this.observers.filter((observer) => observer !== o)
   }
 
   setGroupMessage(message: string) {
@@ -52,6 +52,7 @@ const Leticia = new User(groupChat, 'Leticia')
 groupChat.setGroupMessage('Welcome to the group chat.')
 
 groupChat.removeObserver(Joao)
+console.log(groupChat)
 
 groupChat.setGroupMessage('Only get the message who subscribes to it.')
 
